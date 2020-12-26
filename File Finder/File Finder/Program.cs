@@ -12,7 +12,7 @@ namespace File_Finder
         /// <param name="args">[0] directory to look in (use / to search entire pc), [1] file name</param>
         static void Main(string[] args)
         {
-            if (args == null || args.Length <= 0)
+            if (args == null || args.Length <= 1)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Try typing finder <directory> <filename>. If you enter / for directory then it will search all drives.");
